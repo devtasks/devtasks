@@ -1,0 +1,92 @@
+/* ==== Intro ==== */
+
+#intro {
+  background: #222222 url('../img/textures/diamonds.jpg') repeat;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-height: 460px;
+}
+
+#intro h2 {
+  font-size: 56px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+@media (max-width: 570px) {
+  #intro h2 {
+    font-size: 42px;
+    letter-spacing: -1px;
+    padding-top: 25%;
+  }
+}
+
+/* ==== Services ==== */
+.fa-wordpress {
+  background: url('/img/icons/brands/wordpress.png') no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+#services-top {
+  background: url('/img/backgrounds/services_bg.jpg') fixed no-repeat center;
+  background-size: cover;
+  background-position: center;
+  height: 326px;
+  margin-top: -45px;
+}
+
+#services h2 {
+  color: #FFFFFF;
+}
+#services p {
+  padding: 20px;
+  color: #dad8d4;
+  font-size: 1.4em;
+  line-height: 30px;
+}
+
+#services i {
+  font-size: 170px;
+  color: #c53727;
+  line-height: 1.2 !important;
+}
+/* ==== Featured Work ==== */
+#featured-work-top {
+  background: url('/img/backgrounds/featured_bg.jpg') fixed no-repeat center;
+  background-size: cover;  
+  background-position: 0 0;
+  height: 326px;
+}
+
+#featured-work {
+
+}
+
+#process-top {
+  height: 326px;
+  /*background: #111;*/
+  background: #222222;  
+}
+
+#process {
+
+}
+#process h2 {
+  color: #FFFFFF;
+}
+#process p {
+  padding: 20px 80;
+  color: #dad8d4;
+  font-size: 1.4em;
+  line-height: 30px;
+}
+
+#process i {
+  font-size: 80px;
+  color: #c53727;
+  line-height: 1.2 !important;
+}
